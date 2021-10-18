@@ -1,6 +1,0 @@
-1. line 9 will print "values added: [value of result]". 'result' is declared as var variable, so it is accessible outside of its block. The value of 'result' depends on what 'num1' and 'num2' are. If line 16 is run, then line 9 will print "value added: 20". 
-2. line 13 will print "final: [value of result]". 'result' is declared as var variable, so it is accessible outside of its block. If line 16 is run, then line 9 will print "final result: 20". 
-3. line 9 will print "values added: [value of result]". 'result' is declared as let variable, so it is only accessible inside of its block. The value of 'result' depends on what 'num1' and 'num2' are. If line 16 is run, then line 9 will print "values added: 20". 
-4. line 13 will return an error as the variable 'result' was defined using let and is not in the same block as line 13 is. Because of this, 'result' would not actually be a declared variable anymore and would result in an error. 
-5. line 9 will print "values added: 0". Since 'result' was declared using const, then its value cannot be reassigned. 
-6. line 13 will result in an error as the const variable 'result' was defined in a different block than 13 and is thus unreachable. Because of this, 'result' would not be declared when line 13 is ran and would result in an error. 
